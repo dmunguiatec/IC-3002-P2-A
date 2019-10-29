@@ -1,6 +1,7 @@
 from abc import ABC
 from abc import abstractmethod
 
+
 class Dominio(ABC):
     """
     Representa el objeto de dominio que conoce los detalles de implementación y modelamiento
@@ -28,7 +29,7 @@ class Dominio(ABC):
     @abstractmethod
     def generar(self):
         """Construye una estructura de datos que representa una posible solución al problema.
-        
+
         Entradas:
         ninguna
 
@@ -41,11 +42,11 @@ class Dominio(ABC):
     @abstractmethod
     def fcosto(self, sol):
         """Calcula el costo asociado con una solución dada.
-        
+
         Entradas:
         sol (estructura de datos)
             Solución cuyo costo se debe calcular
-        
+
         Salidas:
         (float) valor del costo asociado con la solución
         """
@@ -72,13 +73,13 @@ class Dominio(ABC):
         pass
 
     @abstractmethod
-    def validar(self, sol): 
+    def validar(self, sol):
         """Valida que la solución dada cumpla con todos los requerimientos del problema.
 
         Entradas:
         sol (estructura de datos)
             La solución a validar
-        
+
         Salidas:
         (bool) True si la solución es valida, False en cualquier otro caso.
         """
@@ -93,7 +94,7 @@ class Dominio(ABC):
         Entradas:
         sol (estructura de datos)
             La solución a transformar en texto legible
-        
+
         Salidas:
         (str) El texto legible que representa a la solución.
         """

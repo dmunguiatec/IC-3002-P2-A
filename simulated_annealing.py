@@ -1,8 +1,3 @@
-import math
-from random import random
-
-from dominio_tsp import DominioTSP
-
 def optimizar(dominio, temperatura = 10e32, tasa_enfriamiento = 0.95):
     """Algoritmo de optimización estocástica simulated annealing.
 

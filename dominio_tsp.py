@@ -1,6 +1,3 @@
-import csv
-import random
-
 from dominio import Dominio
 
 
