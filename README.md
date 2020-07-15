@@ -1,4 +1,4 @@
-# algoritmos_p
+# IC-3002 Proyecto 2
 
 Esqueleto para el proyecto de algoritmos probabilísticos para el curso IC-3002 Análisis de Algoritmos.
 
