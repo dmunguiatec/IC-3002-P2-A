@@ -18,4 +18,4 @@ def optimizar(dominio, temperatura = 10e32, tasa_enfriamiento = 0.95):
     """
 
     # Pendiente: implementar esta función
-    pass
+    raise NotImplementedError()

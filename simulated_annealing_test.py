@@ -10,3 +10,4 @@ class PruebaSimulatedAnnealing(unittest.TestCase):
         dominio = DominioTSP('datos/ciudades_cr_pruebas.csv', 'Alajuela')
         sol = optimizar(dominio)
         self.assertTrue(dominio.validar(sol))
+        self.assertAlmostEqual(dominio.fcosto(sol), 105.9)

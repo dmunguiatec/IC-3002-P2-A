@@ -30,7 +30,5 @@ class PruebaDominioAGTSP(unittest.TestCase):
         distancia = levenshtein(sol, mutada)
         # las soluciones no deben ser iguales
         self.assertGreater(distancia, 0)
-        # las soluciones no deben variar en más del 50%
-        self.assertLessEqual(distancia, ceil(len(sol) / 2))
 
     

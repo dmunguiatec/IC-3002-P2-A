@@ -42,7 +42,7 @@ class DominioAGTSP(DominioAG, DominioTSP):
         """
         
         # Pendiente: implementar este constructor
-        pass
+        raise NotImplementedError()
 
     def generar_n(self, n):
         """Construye aleatoriamente una lista de listas que representa n 
@@ -58,7 +58,7 @@ class DominioAGTSP(DominioAG, DominioTSP):
         """
         
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()
 
     def cruzar(self, sol_a, sol_b):
         """Produce una nueva posible solución cruzando las dos soluciones dadas por parámetro.
@@ -75,7 +75,7 @@ class DominioAGTSP(DominioAG, DominioTSP):
         """
 
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()
 
     def mutar(self, sol):
         """Produce una nueva solución aplicando un ligero cambio a la solución dada por
@@ -91,4 +91,4 @@ class DominioAGTSP(DominioAG, DominioTSP):
         """
 
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()

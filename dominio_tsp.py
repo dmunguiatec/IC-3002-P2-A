@@ -46,7 +46,7 @@ class DominioTSP(Dominio):
         """
 
         # Pendiente: implementar este constructor
-        pass
+        raise NotImplementedError()
 
     def validar(self, sol):
         """Valida que la solución dada cumple con los requisitos del problema.
@@ -66,7 +66,7 @@ class DominioTSP(Dominio):
         """
 
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()
 
     def texto(self, sol):
         """Construye una representación en hilera legible por humanos de la solución
@@ -84,7 +84,7 @@ class DominioTSP(Dominio):
         """
 
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()
 
     def generar(self):
         """Construye aleatoriamente una lista que representa una posible solución al problema.
@@ -97,7 +97,7 @@ class DominioTSP(Dominio):
         """
 
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()
 
     def fcosto(self, sol):
         """Calcula el costo asociado con una solución dada.
@@ -111,7 +111,7 @@ class DominioTSP(Dominio):
         """
 
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()
 
     def vecino(self, sol):
         """Calcula una solución vecina a partir de una solución dada.
@@ -130,4 +130,4 @@ class DominioTSP(Dominio):
         """
 
         # Pendiente: implementar este método
-        pass
+        raise NotImplementedError()

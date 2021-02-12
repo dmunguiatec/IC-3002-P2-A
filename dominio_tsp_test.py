@@ -20,7 +20,7 @@ class PruebaDominioTSP(unittest.TestCase):
     def test_validar_correcta(self):
         self.assertTrue(self.__tsp.validar([1, 2, 3]))
 
-    def test_validar_más_ciudades(self):
+    def test_validar_mas_ciudades(self):
         self.assertTrue(self.__tsp.validar([1, 2, 3, 4]) == False)
 
     def test_validar_ciudad_inexistente(self):
@@ -61,5 +61,3 @@ class PruebaDominioTSP(unittest.TestCase):
         distancia = levenshtein(sol, vecino)
         # las soluciones no deben ser iguales
         self.assertGreater(distancia, 0)
-        # las soluciones no deben variar en más del 50%
-        self.assertLessEqual(distancia, ceil(len(sol) / 2))

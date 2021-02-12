@@ -24,4 +24,4 @@ def optimizar(dominio, tam_pobl, porc_elite, prob_mut, reps):
     """
 
     # Pendiente: implementar este método
-    pass
+    raise NotImplementedError()
